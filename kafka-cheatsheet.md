@@ -12,3 +12,6 @@
 
 #### Get List Of Available Topics Using Zookeeper :  `bin/kafka-topics.sh --list --zookeeper localhost:2181 `
 
+#### Get Topic Description Using Bootstrap Server :  `bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic topicname `
+
+#### Get Topic Description Using Zookeeper :  `bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic topicname `

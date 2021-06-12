@@ -15,3 +15,7 @@
 #### Get Topic Description Using Bootstrap Server :  `bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic topicname `
 
 #### Get Topic Description Using Zookeeper :  `bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic topicname `
+
+#### Send Message :  `bin/kafka-console-producer.sh --broker-list localhost:9092 --topic cities `
+
+#### Consume Message :  `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic cities `
